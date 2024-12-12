@@ -3,28 +3,40 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Higher Secondary Certificate in Commerce ',
 		description: '',
-		location: 'Tunisia',
+		location: 'Petlad, Gujarat',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Gujarat Secondary and Higher Secondary Education Board',
+		period: { from: new Date(2019, 5, 6), to: new Date(2020, 3, 25) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'dummy-education-item-1',
+		subjects: ['Account','Statastic', 'Economics', 'Business Studies', 'English', 'Computer Studies' , 'Secretarial Practice & Commercial Correspondence (SPCC)']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: "Bachelor's Of Computer Application",
 		description: '',
-		location: 'USA',
+		location: 'Anand, Gujarat',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Sardar Patel University',
+		period: { from: new Date(2020, 6, 15), to: new Date(2023, 4, 15) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: ['HTML, CSS & JS', 'C & C++', 'Data Structure & Algorithms', 'PHP', 'Python', 'VB.net & ASP.net']
+	},
+	{
+		degree: 'Master Of Computer Application',
+		description: '',
+		location: 'Anand, Gujarat',
+		logo: Assets.Unknown,
+		name: '',
+		organization: 'The Charutar Vidya Mandal university',
+		period: { from: new Date(2023, 6, 6)},
+		shortDescription: '',
+		slug: 'dummy-education-item-3',
+		subjects: ['PHP', 'Laravel', 'React JS', 'Node JS', 'Python & R', ]
 	}
 ];
 
